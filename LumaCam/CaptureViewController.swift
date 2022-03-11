@@ -64,7 +64,16 @@ class CaptureViewController: UIViewController {
         appState = .Started
     }
     
+    func hideCoachView() {
+        UIView.animate(withDuration: 0.33) { [weak self] in
+            self?.coachingView2D_2.alpha = 0.0
+        } completion: { [weak self] didFinish in
+            self?.coachingView2D_2.removeFromSuperview()
+        }
+    }
+    
     @IBAction func beginARDemoScene() {
+        hideCoachView()
         let arCoachScene = try! LumaLabsCapture.loadARCoachScene()
         arView.scene.anchors.append(arCoachScene)
     }
@@ -82,18 +91,18 @@ class CaptureViewController: UIViewController {
 extension CaptureViewController {
     
     func startApp() {
-        DispatchQueue.main.async {
+        DispatchQueue.main.async { [weak self] in
             //self.arPortNode.isHidden = true
             //self.focusNode.isHidden = true
-            self.appState = .DetectSurface
+            self?.appState = .DetectSurface
         }
     }
     
     func resetApp() {
-        DispatchQueue.main.async {
+        DispatchQueue.main.async { [weak self] in
             //self.arPortNode.isHidden = true
             //self.resetARSession()
-            self.appState = .DetectSurface
+            self?.appState = .DetectSurface
         }
     }
 }
@@ -120,24 +129,18 @@ extension CaptureViewController: ARCoachingOverlayViewDelegate {
         self.coachingView2D_2.alpha = 0.0
         //Show our 2D directions for 4 seconds
         DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
-            UIView.animate(withDuration: 0.33) {
-                self.coachingView2D.alpha = 0.0
-            } completion: { didComplete in
-                self.coachingView2D.removeFromSuperview()
-                self.showSecondCoachingView()
+            UIView.animate(withDuration: 0.33) { [weak self] in
+                self?.coachingView2D.alpha = 0.0
+            } completion: { [weak self] didComplete in
+                self?.coachingView2D.removeFromSuperview()
+                self?.showSecondCoachingView()
             }
         }
     }
     
     func showSecondCoachingView() {
-        UIView.animate(withDuration: 0.33) {
-            self.coachingView2D_2.alpha = 1.0
-        } completion: { didComplete in
-            DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
-                UIView.animate(withDuration: 0.33) {
-                    self.coachingView2D_2.alpha = 0.0
-                }
-            }
+        UIView.animate(withDuration: 0.33) { [weak self] in
+            self?.coachingView2D_2.alpha = 1.0
         }
     }
     
