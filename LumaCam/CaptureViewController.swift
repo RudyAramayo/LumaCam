@@ -231,16 +231,18 @@ extension CaptureViewController {
     }
     
     func initFocusNode() {
-        //TODO: add the focus reticle scene to the experience and load it here as the focus node
-        focusNode = try! LumaLabsCapture.loadARReticle()
-        cameraAnchor = AnchorEntity(.camera)
-        if let cameraAnchor = cameraAnchor {
-            focusNode?.setParent(cameraAnchor)
-            arView.scene.anchors.append(cameraAnchor)
-            
-            focusPoint = CGPoint(x: view.center.x, y: view.center.y + view.center.y * 0.1)
-            NotificationCenter.default.addObserver(self, selector: #selector(CaptureViewController.orientationChanged), name: UIDevice.orientationDidChangeNotification, object: nil)
-        }
+        //TODO: binding the focus node to the camera was wrong, it needs to be bound to a loop that checks raycast center of screen and bind position to that
+//        focusNode = try! LumaLabsCapture.loadARReticle()
+//        focusNode?.transform.translation.z = -0.15
+//
+//        cameraAnchor = AnchorEntity(.camera)
+//        if let cameraAnchor = cameraAnchor {
+//            focusNode?.setParent(cameraAnchor)
+//            arView.scene.anchors.append(cameraAnchor)
+//            
+//            focusPoint = CGPoint(x: view.center.x, y: view.center.y + view.center.y * 0.1)
+//            NotificationCenter.default.addObserver(self, selector: #selector(CaptureViewController.orientationChanged), name: UIDevice.orientationDidChangeNotification, object: nil)
+//        }
     }
 }
 
