@@ -27,7 +27,8 @@ class CaptureViewController: UIViewController {
     var statusMessage: String = ""
     var appState: AppState = .TapToStart
     var focusPoint:CGPoint!
-    var focusNode: SCNNode!
+    var focusNode: LumaLabsCapture.ARReticle?
+    var cameraAnchor: AnchorEntity?
     
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var resetButton: UIButton!
@@ -67,6 +68,7 @@ class CaptureViewController: UIViewController {
         ARWorldTrackingConfiguration
         config.planeDetection = .horizontal
         arView.session.run(config, options: [.resetTracking, .removeExistingAnchors])
+        initFocusNode()
     }
     
     // MARK: - IB Actions
@@ -88,7 +90,10 @@ class CaptureViewController: UIViewController {
         //TODO: Perform raycast and set an anchor up with our capture
         //TODO: HideFocusNode and show the capture reticle
         //appState = .Started
-        
+        focusNode?.removeFromParent()
+        cameraAnchor?.removeFromParent()
+        cameraAnchor = nil
+        focusNode = nil
     }
     
     func hideCoachView() {
@@ -227,12 +232,15 @@ extension CaptureViewController {
     
     func initFocusNode() {
         //TODO: add the focus reticle scene to the experience and load it here as the focus node
-        let arReticleScene = try! LumaLabsCapture.loadARReticle()
-        arView.scene.anchors.append(arReticleScene)
-        
-        focusPoint = CGPoint(x: view.center.x, y: view.center.y + view.center.y * 0.1)
-        NotificationCenter.default.addObserver(self, selector: #selector(CaptureViewController.orientationChanged), name: UIDevice.orientationDidChangeNotification, object: nil)
-        
+        focusNode = try! LumaLabsCapture.loadARReticle()
+        cameraAnchor = AnchorEntity(.camera)
+        if let cameraAnchor = cameraAnchor {
+            focusNode?.setParent(cameraAnchor)
+            arView.scene.anchors.append(cameraAnchor)
+            
+            focusPoint = CGPoint(x: view.center.x, y: view.center.y + view.center.y * 0.1)
+            NotificationCenter.default.addObserver(self, selector: #selector(CaptureViewController.orientationChanged), name: UIDevice.orientationDidChangeNotification, object: nil)
+        }
     }
 }
 
