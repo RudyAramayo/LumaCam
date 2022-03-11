@@ -10046,8 +10046,7 @@
                                       "configurationBox" : {
                                         "configuration" : {
                                           "target" : [
-                                            "F642B26E-1163-4EDC-BE1F-4CB5DAF6431A",
-                                            "12CC2C78-8262-46D6-B3A9-250DB23DF794"
+                                            "F642B26E-1163-4EDC-BE1F-4CB5DAF6431A"
                                           ],
                                           "userIdentifier" : "TakePhoto"
                                         },
@@ -12363,117 +12362,7 @@
                       ]
                     }
                   },
-                  "B95C674A-E621-4D42-B916-F1F126551D11" : {
-                    "overrides" : {
-                      "arguments" : [
-                        [
-                          "arrowAngleOffset",
-                          {
-                            "typeName" : "Double",
-                            "value" : -17
-                          }
-                        ],
-                        [
-                          "arrowLength",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.31
-                          }
-                        ],
-                        [
-                          "arrowWidth",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.070000000000000034
-                          }
-                        ],
-                        [
-                          "bubbleType",
-                          {
-                            "typeName" : "String",
-                            "value" : "speech"
-                          }
-                        ],
-                        [
-                          "cornerRoundness",
-                          {
-                            "typeName" : "Double",
-                            "value" : 1
-                          }
-                        ],
-                        [
-                          "message",
-                          {
-                            "typeName" : "String",
-                            "value" : "Start Here"
-                          }
-                        ],
-                        [
-                          "messageFont",
-                          {
-                            "typeName" : "String",
-                            "value" : "Helvetica"
-                          }
-                        ],
-                        [
-                          "messageMaterial",
-                          {
-                            "typeName" : "String",
-                            "value" : "standard"
-                          }
-                        ]
-                      ],
-                      "children" : {
-                        "text_1" : {
-                          "overrides" : {
-                            "factory" : null,
-                            "runtimeAttributes" : [
-                              [
-                                "RuntimeIdentifier",
-                                {
-                                  "typeName" : "UUID",
-                                  "value" : "E1F53750-9C20-4E9D-9482-911484CF38BF"
-                                }
-                              ]
-                            ]
-                          }
-                        }
-                      },
-                      "factory" : {
-                        "identifier" : "com.apple.rc.af.CoreAssetFactories.QuoteBubbleAssetFactory",
-                        "version" : "1.0"
-                      },
-                      "runtimeAttributes" : [
-                        [
-                          "RuntimeIdentifier",
-                          {
-                            "typeName" : "UUID",
-                            "value" : "12CC2C78-8262-46D6-B3A9-250DB23DF794"
-                          }
-                        ]
-                      ]
-                    },
-                    "transform" : {
-                      "matrix" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0.46998906135559082,
-                        1.0501270294189453,
-                        0.0097923558205366135,
-                        1
-                      ]
-                    }
-                  },
+                  "B95C674A-E621-4D42-B916-F1F126551D11" : null,
                   "B5618F34-2894-47BB-A055-2A6804432610" : {
                     "overrides" : {
                       "arguments" : [
@@ -13355,21 +13244,21 @@
               "title" : "CaptureScene",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.97981953620910645,
-                  -3.2013979023304273e-08,
-                  -0.19988413155078888,
+                  0.84951460361480713,
+                  -1.2172449714853428e-08,
+                  -0.52756500244140625,
                   0,
-                  -0.088761478662490845,
-                  0.89599472284317017,
-                  -0.43510335683822632,
+                  -0.48499798774719238,
+                  0.39352428913116455,
+                  -0.78097087144851685,
                   0,
-                  0.17909513413906097,
-                  0.44406470656394958,
-                  0.87791317701339722,
+                  0.20760926604270935,
+                  0.91931438446044922,
+                  0.33430448174476624,
                   0,
-                  0.95753240585327148,
-                  1.4094028472900391,
-                  1.9264026880264282,
+                  0.78064924478530884,
+                  2.2294461727142334,
+                  0.92133748531341553,
                   1
                 ],
                 "sceneTransform" : [
