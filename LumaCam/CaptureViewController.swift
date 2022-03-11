@@ -62,7 +62,7 @@ class CaptureViewController: UIViewController {
         
         //TODO: HideFocustNode and show the capture reticle
         appState = .Started
-    }
+    }	
     
     func hideCoachView() {
         UIView.animate(withDuration: 0.33) { [weak self] in
