@@ -38,6 +38,8 @@ class CaptureViewController: UIViewController {
         self.addCoachingOverlay()
         self.initFocusNode()
         self.initRawFeatureParticles()
+        
+        self.arView.gestureRecognizers?.append(UITapGestureRecognizer(target: self, action: #selector(tapGestureHandler(_:))))
     }
     
     func initRawFeatureParticles() {
@@ -77,13 +79,21 @@ class CaptureViewController: UIViewController {
         self.resetApp()
     }
     
-    @IBAction func tapGestureHandler(_ sender: Any) {
+    @objc func tapGestureHandler(_ sender: UITapGestureRecognizer) {
+        let tapLocation:CGPoint = sender.location(in: arView)
         guard appState == .TapToStart else { return }
+        guard let query = arView.makeRaycastQuery(from: tapLocation, allowing: .existingPlaneInfinite, alignment: .horizontal) else { return }
+        guard let raycastResult = arView.session.raycast(query).first else { return }
+
+        let anchor = AnchorEntity(world: raycastResult.worldTransform)
+        let captureScene = try! LumaLabsCapture.loadCaptureScene()
+        anchor.addChild(captureScene)
         
-        
+        self.arView.scene.anchors.append(anchor)
         //TODO: Perform raycast and set an anchor up with our capture
         //TODO: HideFocusNode and show the capture reticle
         appState = .Started
+        
     }
     
     func hideCoachView() {
@@ -148,7 +158,7 @@ extension CaptureViewController {
             //TODO: sync content/focus node
             //Step1: Hide ContentNode
             //Step2: Hide focusNode
-            self?.appState = .DetectSurface
+            self?.appState = .TapToStart
         }
     }
     
@@ -157,7 +167,7 @@ extension CaptureViewController {
             //TODO: sync content/focus node
             //Step1: Hide ContentNode
             //Step2: reset ARSession
-            self?.appState = .DetectSurface
+            self?.appState = .TapToStart
         }
     }
 }

@@ -3,4 +3,54 @@
    uuid = "8E2EF458-6078-45A6-8FF1-0448014AEBA0"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C7F24F4-A422-4226-B9D6-B111001F563D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LumaCam/CaptureViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "tapGestureHandler(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C7F24F4-A422-4226-B9D6-B111001F563D - 7d1c2154352d7f0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LumaCam.CaptureViewController.tapGestureHandler(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "LumaCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rob/dev/LumaLabs/LumaCam/LumaCam/CaptureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "6C7F24F4-A422-4226-B9D6-B111001F563D - 7d1c2154352d7f0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LumaCam.CaptureViewController.tapGestureHandler(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "LumaCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rob/dev/LumaLabs/LumaCam/LumaCam/CaptureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "1908">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
