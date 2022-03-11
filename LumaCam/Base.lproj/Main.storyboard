@@ -104,20 +104,6 @@
                                     <backgroundConfiguration key="background" image="SwitchCamera"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fu6-6U-POk">
-                                <rect key="frame" x="13" y="934" width="300" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="dKo-OR-1ou"/>
-                                    <constraint firstAttribute="width" constant="300" id="lgX-MV-5EQ"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Exit Demo">
-                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="exitDemo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d6T-nb-dHf"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDa-uB-Nox">
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                                 <subviews>
@@ -184,7 +170,6 @@ at each marker </string>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="rey-DL-osB" firstAttribute="top" secondItem="Ixk-s8-Vls" secondAttribute="bottom" constant="8" symbolic="YES" id="4ct-ZT-5ZH"/>
-                            <constraint firstItem="fu6-6U-POk" firstAttribute="leading" secondItem="gNE-gS-H2H" secondAttribute="leading" constant="13" id="50W-Uh-Np8"/>
                             <constraint firstItem="0vm-bn-1ve" firstAttribute="centerX" secondItem="hr7-EU-c2S" secondAttribute="centerX" id="AWr-wQ-F2Y"/>
                             <constraint firstItem="rey-DL-osB" firstAttribute="centerX" secondItem="Ixk-s8-Vls" secondAttribute="centerX" id="BAo-4f-LXP"/>
                             <constraint firstItem="BbA-cf-y2y" firstAttribute="top" secondItem="EXw-jp-7P2" secondAttribute="top" constant="10" id="C1F-Hp-eXA"/>
@@ -193,7 +178,6 @@ at each marker </string>
                             <constraint firstItem="0vm-bn-1ve" firstAttribute="top" secondItem="Ccg-nW-nNm" secondAttribute="bottom" id="Fdj-qB-4WS"/>
                             <constraint firstItem="gNE-gS-H2H" firstAttribute="trailing" secondItem="Ixk-s8-Vls" secondAttribute="trailing" constant="10" id="JCe-23-Czn"/>
                             <constraint firstItem="f27-bS-ueH" firstAttribute="leading" secondItem="gNE-gS-H2H" secondAttribute="leading" id="Jte-Cr-AIn"/>
-                            <constraint firstItem="gNE-gS-H2H" firstAttribute="bottom" secondItem="fu6-6U-POk" secondAttribute="bottom" constant="35" id="OcP-tc-MVu"/>
                             <constraint firstAttribute="bottom" secondItem="f27-bS-ueH" secondAttribute="bottom" id="QTm-nh-1hT"/>
                             <constraint firstItem="Ixk-s8-Vls" firstAttribute="centerY" secondItem="f27-bS-ueH" secondAttribute="centerY" id="RKc-lb-iTW"/>
                             <constraint firstItem="f27-bS-ueH" firstAttribute="top" secondItem="EXw-jp-7P2" secondAttribute="top" id="VAW-Hi-bAI"/>
@@ -228,7 +212,7 @@ at each marker </string>
         <image name="FlashIsOn" width="191" height="86"/>
         <image name="LivePreview" width="100" height="100"/>
         <image name="SwitchCamera" width="100" height="100"/>
-        <image name="TakePhotos" width="693" height="466"/>
+        <image name="TakePhotos" width="320" height="251"/>
         <image name="TakePicture" width="191" height="191"/>
         <image name="Timer" width="100" height="100"/>
         <systemColor name="labelColor">

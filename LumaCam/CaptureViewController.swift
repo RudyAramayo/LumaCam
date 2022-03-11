@@ -34,8 +34,7 @@ class CaptureViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        addCoachingOverlay()
-        
+        //show coaching overlay on first run
         self.addCoachingOverlay()
         self.initFocusNode()
         self.initRawFeatureParticles()
@@ -87,10 +86,6 @@ class CaptureViewController: UIViewController {
         appState = .Started
     }
     
-    @IBAction func exitDemo(_ sender: Any) {
-        //TODO: remove the current node and add the next scene
-    }
-    
     func hideCoachView() {
         UIView.animate(withDuration: 0.33) { [weak self] in
             self?.coachingView2D_2.alpha = 0.0
@@ -108,7 +103,7 @@ class CaptureViewController: UIViewController {
         if let arCoachScene = arCoachScene {
             arView.scene.anchors.append(arCoachScene)
             //Initialize Actions
-            arCoachScene.actions.takePhoto.onAction = handleTakePhotoAction(_:)
+            arCoachScene.actions.aRDemoComplete.onAction = handleARDemoCompletedAction(_:)
         }
     }
     
@@ -120,6 +115,12 @@ class CaptureViewController: UIViewController {
             //Initialize Actions
             captureScene.actions.takePhoto.onAction = handleTakePhotoAction(_:)
         }
+    }
+    
+    func handleARDemoCompletedAction(_ entity: Entity?) {
+        guard let entity = entity else { return }
+        //This is just a convenience method to notify we have completed...
+        print("handleARDemoCompletedAction \(entity)")
     }
     
     func handleTakePhotoAction(_ entity: Entity?) {
@@ -220,8 +221,8 @@ extension CaptureViewController {
     
     func initFocusNode() {
         //TODO: add the focus reticle scene to the experience and load it here as the focus node
-        let arCoachScene = try! LumaLabsCapture.loadARCoachScene()
-        arView.scene.anchors.append(arCoachScene)
+        let arReticleScene = try! LumaLabsCapture.loadARReticle()
+        arView.scene.anchors.append(arReticleScene)
         
         focusPoint = CGPoint(x: view.center.x, y: view.center.y + view.center.y * 0.1)
         NotificationCenter.default.addObserver(self, selector: #selector(CaptureViewController.orientationChanged), name: UIDevice.orientationDidChangeNotification, object: nil)
