@@ -25,7 +25,7 @@ class CaptureViewController: UIViewController {
     
     var trackingStatus: String = ""
     var statusMessage: String = ""
-    var appState: AppState = .DetectSurface
+    var appState: AppState = .TapToStart
     var focusPoint:CGPoint!
     var focusNode: SCNNode!
     
@@ -69,11 +69,6 @@ class CaptureViewController: UIViewController {
         arView.session.run(config, options: [.resetTracking, .removeExistingAnchors])
     }
     
-    func initARCoachScene() {
-        let arCoachScene = try! LumaLabsCapture.loadARCoachScene()
-        arView.scene.anchors.append(arCoachScene)
-    }
-    
     // MARK: - IB Actions
     @IBAction func resetButtonPressed(_ sender: Any) {
         self.resetApp()
@@ -92,7 +87,7 @@ class CaptureViewController: UIViewController {
         self.arView.scene.anchors.append(anchor)
         //TODO: Perform raycast and set an anchor up with our capture
         //TODO: HideFocusNode and show the capture reticle
-        appState = .Started
+        //appState = .Started
         
     }
     
@@ -168,6 +163,7 @@ extension CaptureViewController {
             //Step1: Hide ContentNode
             //Step2: reset ARSession
             self?.appState = .TapToStart
+            self?.arView.scene.anchors.removeAll()
         }
     }
 }
