@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		D4DD2E0227DA84CA003E1C51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DD2E0127DA84CA003E1C51 /* AppDelegate.swift */; };
-		D4DD2E0427DA84CA003E1C51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DD2E0327DA84CA003E1C51 /* ViewController.swift */; };
+		D4DD2E0427DA84CA003E1C51 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DD2E0327DA84CA003E1C51 /* CaptureViewController.swift */; };
 		D4DD2E0927DA84CB003E1C51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4DD2E0727DA84CB003E1C51 /* Main.storyboard */; };
 		D4DD2E0B27DA84CB003E1C51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DD2E0A27DA84CB003E1C51 /* Assets.xcassets */; };
 		D4DD2E0E27DA84CB003E1C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4DD2E0C27DA84CB003E1C51 /* LaunchScreen.storyboard */; };
 		D4DD2E1527DA8568003E1C51 /* LumaLabs Capture.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D4DD2E1427DA8568003E1C51 /* LumaLabs Capture.rcproject */; };
+		D4DD2E1727DAC949003E1C51 /* Crystal.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D4DD2E1627DAC949003E1C51 /* Crystal.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D4DD2DFE27DA84CA003E1C51 /* LumaCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumaCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DD2E0127DA84CA003E1C51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4DD2E0327DA84CA003E1C51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4DD2E0327DA84CA003E1C51 /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
 		D4DD2E0827DA84CB003E1C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4DD2E0A27DA84CB003E1C51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4DD2E0D27DA84CB003E1C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4DD2E1427DA8568003E1C51 /* LumaLabs Capture.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = "LumaLabs Capture.rcproject"; sourceTree = "<group>"; };
+		D4DD2E1627DAC949003E1C51 /* Crystal.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Crystal.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				D4DD2E0127DA84CA003E1C51 /* AppDelegate.swift */,
-				D4DD2E0327DA84CA003E1C51 /* ViewController.swift */,
+				D4DD2E0327DA84CA003E1C51 /* CaptureViewController.swift */,
 				D4DD2E1427DA8568003E1C51 /* LumaLabs Capture.rcproject */,
+				D4DD2E1627DAC949003E1C51 /* Crystal.m4a */,
 				D4DD2E0727DA84CB003E1C51 /* Main.storyboard */,
 				D4DD2E0A27DA84CB003E1C51 /* Assets.xcassets */,
 				D4DD2E0C27DA84CB003E1C51 /* LaunchScreen.storyboard */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4DD2E0E27DA84CB003E1C51 /* LaunchScreen.storyboard in Resources */,
+				D4DD2E1727DAC949003E1C51 /* Crystal.m4a in Resources */,
 				D4DD2E0B27DA84CB003E1C51 /* Assets.xcassets in Resources */,
 				D4DD2E0927DA84CB003E1C51 /* Main.storyboard in Resources */,
 			);
@@ -136,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4DD2E0427DA84CA003E1C51 /* ViewController.swift in Sources */,
+				D4DD2E0427DA84CA003E1C51 /* CaptureViewController.swift in Sources */,
 				D4DD2E0227DA84CA003E1C51 /* AppDelegate.swift in Sources */,
 				D4DD2E1527DA8568003E1C51 /* LumaLabs Capture.rcproject in Sources */,
 			);
@@ -289,7 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 975CAGD5EW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = Photography;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +323,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 975CAGD5EW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = Photography;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
