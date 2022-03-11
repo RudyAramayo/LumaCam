@@ -1701,7 +1701,7 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "duration" : 15
+                                          "duration" : 7
                                         },
                                         "name" : {
                                           "type" : "wait"
@@ -1739,7 +1739,8 @@
                                           "moveEase" : "easeInOut",
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "77BEDADA-E707-45C8-ADA7-B41AC8CB5708"
+                                            "77BEDADA-E707-45C8-ADA7-B41AC8CB5708",
+                                            "0D49DBD1-3742-4515-8237-76CF30DBD98C"
                                           ]
                                         },
                                         "name" : {
@@ -1778,7 +1779,9 @@
                                           "moveEase" : "easeInOut",
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "C0E191AE-CB22-406A-80BE-84728B36206A"
+                                            "22F7F9C0-0FF4-4046-8ECC-173200CD7751",
+                                            "44754653-405D-45B1-BF51-FEC3085C6A7D",
+                                            "8086EA7B-85F3-4AC6-B8D8-C4DD9D529CFE"
                                           ]
                                         },
                                         "name" : {
@@ -6507,40 +6510,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "808E5F7E-2C85-4426-B288-410B2DB6197B"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "F2B39C1A-9AB1-4887-A375-484A0F744A44",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "A5D931CC-D2CD-490F-B409-5B9B92EDB6AE",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -6561,7 +6530,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "FC64215E-6CB6-4AF1-9ADE-6D21402FF1E6",
+                              "identifier" : "A5D931CC-D2CD-490F-B409-5B9B92EDB6AE",
                               "isEnabled" : true
                             }
                           ],
@@ -6737,40 +6706,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "5AA17E75-A8C2-4E7E-8B53-29B1B772CAEA"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "4B1799C8-211D-4686-8617-D61A24CA9AEC",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "83FFC2C7-5BFE-4529-8661-0A27A2FE1C83",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -6791,7 +6726,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "12B5BC9B-D73A-497A-B8F9-53AD378954D2",
+                              "identifier" : "8AB0A060-620E-474F-96FC-03AAB050FB4D",
                               "isEnabled" : true
                             }
                           ],
@@ -6967,40 +6902,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "681471A1-8512-4037-9B9C-D4C9F3388310"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "1848F59C-6869-43B1-A8F6-60D78F0FDCC9",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "CC447F7A-7727-43EE-83D1-C8C292400A42",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -7021,7 +6922,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "4E16FFF8-8FAA-4172-A94D-44926EDCA0F0",
+                              "identifier" : "CC447F7A-7727-43EE-83D1-C8C292400A42",
                               "isEnabled" : true
                             }
                           ],
@@ -7197,40 +7098,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "FD667CE1-3CFE-4B89-9F64-A63DD80F4960"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "5A392BCC-EB8B-43A3-9128-935E7F307197",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "E5E70145-E94B-464D-8F66-EB83691BD605",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -7251,7 +7118,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "17961B1D-DF1E-4682-903F-561990B24AB0",
+                              "identifier" : "E5E70145-E94B-464D-8F66-EB83691BD605",
                               "isEnabled" : true
                             }
                           ],
@@ -7427,40 +7294,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "B0AB368C-8F88-4EB1-8335-701197B02CD9"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "D058D4B8-F3C0-4788-905D-689020BB19B2",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "9543A5BF-C04A-4E41-B50A-5525C7BC4900",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -7481,7 +7314,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "46F94684-26FF-4010-B46A-A65AFDFACF3B",
+                              "identifier" : "9543A5BF-C04A-4E41-B50A-5525C7BC4900",
                               "isEnabled" : true
                             }
                           ],
@@ -7657,40 +7490,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "6AB4ACE8-6E3B-4912-82DB-0A619906560D"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "30715700-397B-47A3-AF61-88DC8506FC40",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "A2F1726F-50AB-4D4B-A56B-8245B54FED47",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -7711,7 +7510,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "168EF89A-FE82-4706-8ED7-0B6BEF3A7883",
+                              "identifier" : "A2F1726F-50AB-4D4B-A56B-8245B54FED47",
                               "isEnabled" : true
                             }
                           ],
@@ -7887,40 +7686,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "231686F5-99CC-49EC-B5AB-472279320205"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "EC74ADF9-BD06-4489-A578-33768BD0B7CB",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "1C7F1849-CD5C-48C9-80BE-04BC9FDA3EBA",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -7941,7 +7706,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "65696862-B3FA-456B-8339-0E28A4FBD7CF",
+                              "identifier" : "1C7F1849-CD5C-48C9-80BE-04BC9FDA3EBA",
                               "isEnabled" : true
                             }
                           ],
@@ -8117,40 +7882,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "9541C8A2-4FC2-4BDD-A5C4-19810543980F"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "8824D4E4-7B3D-4B86-BA2C-DA04AC08D4C7",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "549EDAD8-38C0-4B14-B6A6-6E0CB3BD0F72",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -8171,7 +7902,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "17F11E7A-63D6-4000-8163-542058AF01E7",
+                              "identifier" : "549EDAD8-38C0-4B14-B6A6-6E0CB3BD0F72",
                               "isEnabled" : true
                             }
                           ],
@@ -8347,40 +8078,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "38A36D65-1D91-4B83-AE42-D55EEC42CB89"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "4CDE3825-5825-4353-9ABC-CEE0B8AF0C4B",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "B29B2CF2-326D-4F6E-AD08-FF23668C9F98",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -8401,7 +8098,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "5ED5A5E9-164C-4082-B583-7333D7A74F3F",
+                              "identifier" : "B29B2CF2-326D-4F6E-AD08-FF23668C9F98",
                               "isEnabled" : true
                             }
                           ],
@@ -8577,40 +8274,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "4973F8A4-FD4E-4EA6-AE9D-2EE023F8EDAB"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "BCA99374-0E95-468C-B125-D5D06BCFA7CE",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "7B59243F-1458-44B5-961A-46B840D9BF02",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -8631,7 +8294,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "3177FC7B-8FFB-49DA-A167-A180AB827412",
+                              "identifier" : "7B59243F-1458-44B5-961A-46B840D9BF02",
                               "isEnabled" : true
                             }
                           ],
@@ -8807,40 +8470,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "F15CD7EE-969B-40A8-BB6B-3BF13680EA1F"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "2EDF30A5-1430-481E-82BB-632AAAD45A64",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "5E887664-5440-4B97-BC98-FC23DE712880",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -8861,7 +8490,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "9AEBFFBA-F5FF-490D-BDC4-C03D0CC737B8",
+                              "identifier" : "5E887664-5440-4B97-BC98-FC23DE712880",
                               "isEnabled" : true
                             }
                           ],
@@ -9037,40 +8666,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "0B8ECDF9-8169-4156-8790-7227A864B141"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "63965B0D-8E08-4782-80AE-3FD5A1C43B1A",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "7064D3B8-3331-4C6C-81FA-E045BB44BCBC",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -9091,7 +8686,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "0E296341-48D5-4FF1-A286-74FE90F9F47C",
+                              "identifier" : "7064D3B8-3331-4C6C-81FA-E045BB44BCBC",
                               "isEnabled" : true
                             }
                           ],
@@ -9267,40 +8862,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "16DFE267-9C00-4AF9-AED4-4E96A8BE66AE"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "14F50F06-13BE-4C02-B71B-002E08F16843",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "8606612C-C2EC-47F2-AACB-D4BA64999277",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -9321,7 +8882,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "CCA6BECF-36F0-4CB2-8727-41FA4031598A",
+                              "identifier" : "8606612C-C2EC-47F2-AACB-D4BA64999277",
                               "isEnabled" : true
                             }
                           ],
@@ -9497,40 +9058,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "4949FBFC-A85E-4FC1-9EA4-2C08BD4D13E2"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "265EA033-EA0C-4A63-BFFC-68A7B20D09E3",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "E74872EF-E956-4331-AE3D-11455ED29EEB",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -9551,7 +9078,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "01DB2610-6ADF-424E-9192-F26879525067",
+                              "identifier" : "E74872EF-E956-4331-AE3D-11455ED29EEB",
                               "isEnabled" : true
                             }
                           ],
@@ -9727,40 +9254,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "5359B420-74FE-476E-B8F1-F6961D4D008E"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "F08B7BBA-D79C-46D8-844C-42CC042DE27A",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "9C426E9B-E96D-4E58-8973-D2D38AB15F9B",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -9781,7 +9274,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "4D2ADC65-41B3-4E5D-94CC-5A5038A3E38B",
+                              "identifier" : "9C426E9B-E96D-4E58-8973-D2D38AB15F9B",
                               "isEnabled" : true
                             }
                           ],
@@ -9957,40 +9450,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "6A1C721D-DD82-40CA-9C58-C31741BBC087"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "F4716D50-AC53-4364-8116-8F9E26DB4075",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "65C18E55-7C8A-4A04-AA41-CBF4F6C046E0",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -10011,7 +9470,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "EB7EBC94-2838-48CD-BC79-7C80FE7F2A7F",
+                              "identifier" : "65C18E55-7C8A-4A04-AA41-CBF4F6C046E0",
                               "isEnabled" : true
                             }
                           ],
@@ -10187,40 +9646,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "1F3CF830-C6AF-4FC5-8FAD-836EA5BF407D"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "C4676B20-370A-45E2-9D7E-5597AABDC910",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "3C3E714F-1C03-424A-9FB6-9AF0332D68BF",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -10241,7 +9666,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "08866D96-A520-480B-9E71-2545655F318B",
+                              "identifier" : "3C3E714F-1C03-424A-9FB6-9AF0332D68BF",
                               "isEnabled" : true
                             }
                           ],
@@ -10417,40 +9842,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "A23EBDEB-3D89-4470-BB9E-46F34A5663E7"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "DA5E95A6-C6D0-4D47-82AC-4A1919FAD5F5",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "518B3368-DEF1-4357-9E67-4BED370F9A20",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -10471,7 +9862,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "689088A7-22BD-40F4-9BAA-4EA7EF7982B1",
+                              "identifier" : "518B3368-DEF1-4357-9E67-4BED370F9A20",
                               "isEnabled" : true
                             }
                           ],
@@ -10647,40 +10038,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "02EDEBC4-8885-4713-B76F-489684F7EF0E"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "338A7CD6-ABEE-4A60-BEC7-A7F96AF02FBB",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "D29E043E-D359-4093-B4EF-9B67CFDE13FD",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -10701,7 +10058,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "C2605A1A-A607-4CE0-BE5A-B121A49BC2CF",
+                              "identifier" : "D29E043E-D359-4093-B4EF-9B67CFDE13FD",
                               "isEnabled" : true
                             }
                           ],
@@ -10877,40 +10234,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "A9AE31C5-8A77-425E-850A-937C0B9B481A"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "AE010BF6-95F0-4427-9BBD-51A7C65BAA94",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "424A205F-9962-4A37-8B9A-6058EA61E932",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -10931,7 +10254,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "06F3429A-13B2-4D96-AC56-651EFF479A80",
+                              "identifier" : "424A205F-9962-4A37-8B9A-6058EA61E932",
                               "isEnabled" : true
                             }
                           ],
@@ -11107,40 +10430,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "F0438706-4DAE-4A1F-8529-835CE3508D99"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "D37F2949-96A7-4FF1-B797-F170E3308986",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "8E793DB8-8C35-43EE-8AC8-5FF38AE7C28E",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -11161,7 +10450,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "FAD0C2F7-57FD-49D8-9426-B17FD685C459",
+                              "identifier" : "8E793DB8-8C35-43EE-8AC8-5FF38AE7C28E",
                               "isEnabled" : true
                             }
                           ],
@@ -11337,40 +10626,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "D8CB1987-458F-4443-A441-48B1EA297C3F"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "91D95201-19FC-4301-9DBC-A25AE4806126",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "69397B26-8B08-4487-A48A-CF6B269390F6",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -11391,7 +10646,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "1C4126B1-C0DE-4C50-9CFC-8973022133FA",
+                              "identifier" : "69397B26-8B08-4487-A48A-CF6B269390F6",
                               "isEnabled" : true
                             }
                           ],
@@ -11567,40 +10822,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "3BD7B19A-FED0-4398-A932-F5CDCFFCFD04"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "30B303CE-3066-4265-8973-6BE0987DA994",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "3C796FCE-3E05-4CAB-AE3E-A4D9FD4C1170",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -11621,7 +10842,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "6C1E10FE-E4CD-4A13-AA58-CB39F1805092",
+                              "identifier" : "3C796FCE-3E05-4CAB-AE3E-A4D9FD4C1170",
                               "isEnabled" : true
                             }
                           ],
@@ -11797,40 +11018,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "58EE4CE1-AAFC-4E02-8635-4AAA3E8162C9"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "10CA7DF2-3CB6-47C4-B452-D7FD71EF3AC5",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "2C62BDC5-E984-4965-B0C2-2AAC7DCA51D7",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -11851,7 +11038,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "A76E981A-CDE7-443B-AADE-B52781BAB265",
+                              "identifier" : "2C62BDC5-E984-4965-B0C2-2AAC7DCA51D7",
                               "isEnabled" : true
                             }
                           ],
@@ -12027,40 +11214,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "9F67C411-224C-4B94-AE6B-04CADEDD5A1D"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "80F08829-0D98-4B48-A2B7-7E1C7041E7E0",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "0663898E-E82D-463D-A63B-012A9C1DDD7A",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -12081,7 +11234,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "E0A32CD2-4CC6-4121-BD2F-4380499757FD",
+                              "identifier" : "0663898E-E82D-463D-A63B-012A9C1DDD7A",
                               "isEnabled" : true
                             }
                           ],
@@ -12257,40 +11410,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "5B441277-D648-4BD6-8823-019794106674"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "70A01972-7934-4533-AE18-BB69B3755FCE",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "4FD42F2D-0D83-4193-A838-F7CDDA81DE56",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -12311,7 +11430,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "C4C2CC35-7620-4EEB-9CAF-F18D8E112FC4",
+                              "identifier" : "4FD42F2D-0D83-4193-A838-F7CDDA81DE56",
                               "isEnabled" : true
                             }
                           ],
@@ -12487,40 +11606,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "B53DAA3E-9D0F-4FD9-95DA-58AE9C3EC5F2"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "11B0256D-9190-439A-9166-39AD0522F8B1",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "3C94F37D-9FFF-46CB-97A2-58D789D44E32",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -12541,7 +11626,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "226697AC-97C9-4ECF-AD49-6373E5CD2F71",
+                              "identifier" : "3C94F37D-9FFF-46CB-97A2-58D789D44E32",
                               "isEnabled" : true
                             }
                           ],
@@ -12708,40 +11793,6 @@
                         "__version" : 1
                       },
                       "actionGroups" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "ADF8D4CA-E1C4-4336-B767-A01448E47DE9"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "73B2DEF2-53EA-45ED-8A9E-44EE90C442C3",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "A28C39DE-8C2B-42BF-95BD-0BD5C6B91247",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
                         {
                           "__content" : [
                             {
@@ -12947,40 +11998,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "15D32662-76C4-4794-A1B6-7E17E5AEAC33"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "903FDE55-2CAC-42DE-844B-28C44B5206FF",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "C1A5F788-1302-4045-8CC9-2286FF973D8A",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -13168,40 +12185,6 @@
                         "__version" : 1
                       },
                       "actionGroups" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "759CB332-6DB5-4CDC-9E70-B55F7DECB930"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "B22ED829-3624-4317-A063-4304939449E2",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "1E258727-4C06-4583-9C74-D076475BE81C",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
                         {
                           "__content" : [
                             {
@@ -13407,40 +12390,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "0B2465B9-20AD-4BD3-9734-BE164B4F8AFA"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "E3D84B82-70A6-4E31-B26D-EC93CDCAB8AE",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "21FA052D-32F0-4CD8-9418-5058C89A559D",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -13628,40 +12577,6 @@
                         "__version" : 1
                       },
                       "actionGroups" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "323F6247-042B-4640-9069-FC2F1837D175"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "0E4B2856-9AC9-46BB-A8C9-1E88804FF9DB",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "B638F4E9-F032-4A7A-9ED7-4764A6D091F2",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
                         {
                           "__content" : [
                             {
@@ -13867,40 +12782,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "80298CDE-B9D4-49A6-AB65-1A1C22E238C4"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "7F0D6239-B0CA-4174-BB9B-E31B9484CF9C",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "A5E13F51-7B13-4F5B-858B-CEE45D27703D",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -14088,40 +12969,6 @@
                         "__version" : 1
                       },
                       "actionGroups" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "7CAEFE64-80BD-4320-98DD-E45C5C913A5C"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "83C632DF-98E6-424F-9DB1-465AA543FF67",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "1156400C-98A1-48A9-89A9-1F5ACFB34541",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
                         {
                           "__content" : [
                             {
@@ -14327,40 +13174,6 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "E8F6BF54-6182-4001-B8FA-6731812AEAC2"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "8455B7C8-E935-4063-8A87-6D9A1077AA31",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "6DF6DBC4-8231-4C53-B940-B8D1C26A24CE",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
                                           "audioType" : "play",
                                           "filePath" : "audio:484e0d54efb6439fb6f960d9832dad5e\/Crystal.m4a",
                                           "loops" : false,
@@ -14548,40 +13361,6 @@
                         "__version" : 1
                       },
                       "actionGroups" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "animationStyle" : "basic",
-                                          "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "F642B26E-1163-4EDC-BE1F-4CB5DAF6431A"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "emphasis"
-                                        }
-                                      },
-                                      "identifier" : "D77391F0-7B47-4F1F-9B94-B0AE1D66F71F",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "239246B0-234B-418E-8762-7FE4C9E0ADD2",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
                         {
                           "__content" : [
                             {
@@ -17906,21 +16685,21 @@
               "title" : "CaptureScene",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.64112323522567749,
-                  -1.7128471085925412e-08,
-                  0.76743793487548828,
+                  0.99981546401977539,
+                  -3.8946503799763832e-09,
+                  0.019209815189242363,
                   0,
-                  0.38688996434211731,
-                  0.86362671852111816,
-                  -0.32321071624755859,
+                  0.0055246874690055847,
+                  0.95775246620178223,
+                  -0.28754088282585144,
                   0,
-                  -0.66277986764907837,
-                  0.50413227081298828,
-                  0.55369085073471069,
+                  -0.018398452550172806,
+                  0.28759393095970154,
+                  0.95757573843002319,
                   0,
-                  -6.422266960144043,
-                  4.9124484062194824,
-                  6.2575783729553223,
+                  0.71077662706375122,
+                  1.6917166709899902,
+                  3.0999224185943604,
                   1
                 ],
                 "sceneTransform" : [
@@ -18308,21 +17087,21 @@
               "title" : "ARReticle",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.64112341403961182,
-                  1.1920928955078125e-07,
-                  0.76743775606155396,
+                  -0.65239053964614868,
+                  1.482343634506833e-07,
+                  0.75788289308547974,
                   0,
-                  0.37510678172111511,
-                  0.87240809202194214,
-                  -0.31336718797683716,
+                  0.40160924196243286,
+                  0.84805428981781006,
+                  0.34570789337158203,
                   0,
-                  -0.66951900720596313,
-                  0.48877817392349243,
-                  0.55932116508483887,
+                  -0.64272576570510864,
+                  0.52990949153900146,
+                  -0.55326277017593384,
                   0,
-                  -0.49597513675689697,
-                  0.40797710418701172,
-                  0.32944738864898682,
+                  -2.5970401763916016,
+                  2.843266487121582,
+                  -2.855980396270752,
                   1
                 ],
                 "sceneTransform" : [
