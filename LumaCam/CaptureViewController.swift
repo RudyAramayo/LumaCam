@@ -87,6 +87,10 @@ class CaptureViewController: UIViewController {
         appState = .Started
     }
     
+    @IBAction func exitDemo(_ sender: Any) {
+        //TODO: remove the current node and add the next scene
+    }
+    
     func hideCoachView() {
         UIView.animate(withDuration: 0.33) { [weak self] in
             self?.coachingView2D_2.alpha = 0.0
