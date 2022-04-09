@@ -26,7 +26,7 @@ class CaptureViewController: UIViewController {
     var trackingStatus: String = ""
     var statusMessage: String = ""
     var appState: AppState = .TapToStart
-    var focusPoint:CGPoint!
+    var focusPoint:CGPoint = .zero
     var focusNode: LumaLabsCapture.ARReticle?
     var cameraAnchor: AnchorEntity?
     
@@ -39,8 +39,9 @@ class CaptureViewController: UIViewController {
         self.addCoachingOverlay()
         self.initFocusNode()
         self.initRawFeatureParticles()
-        
+        self.arView.session.delegate = self
         self.arView.gestureRecognizers?.append(UITapGestureRecognizer(target: self, action: #selector(tapGestureHandler(_:))))
+        
     }
     
     func initRawFeatureParticles() {
@@ -173,6 +174,15 @@ extension CaptureViewController {
     }
 }
 
+extension CaptureViewController: ARSessionDelegate {
+    
+    func session(_ session: ARSession, didUpdate frame: ARFrame) {
+        //Here is where we perform the magic effect
+        //print("frame.rawFeaturePoints = \(frame.rawFeaturePoints?.points)")
+        updateFocusNode()
+    }
+}
+
 //MARK: - ARCoachingOverlay
 
 extension CaptureViewController: ARCoachingOverlayViewDelegate {
@@ -232,17 +242,45 @@ extension CaptureViewController {
     
     func initFocusNode() {
         //TODO: binding the focus node to the camera was wrong, it needs to be bound to a loop that checks raycast center of screen and bind position to that
-//        focusNode = try! LumaLabsCapture.loadARReticle()
-//        focusNode?.transform.translation.z = -0.15
-//
+        focusNode = try! LumaLabsCapture.loadARReticle()
+        focusNode?.transform.translation.z = -0.15
+        if let focusNode = focusNode {
+            arView.scene.anchors.append(focusNode)
+        }
 //        cameraAnchor = AnchorEntity(.camera)
 //        if let cameraAnchor = cameraAnchor {
 //            focusNode?.setParent(cameraAnchor)
 //            arView.scene.anchors.append(cameraAnchor)
-//            
+//
 //            focusPoint = CGPoint(x: view.center.x, y: view.center.y + view.center.y * 0.1)
 //            NotificationCenter.default.addObserver(self, selector: #selector(CaptureViewController.orientationChanged), name: UIDevice.orientationDidChangeNotification, object: nil)
 //        }
+        
+        
+    }
+    
+    func updateFocusNode() {
+        
+        guard appState != .Started else {
+            //focusNode.isHidden = true
+            return
+        }
+        
+        if let query = arView.makeRaycastQuery(from: focusPoint, allowing: .existingPlaneInfinite, alignment: .horizontal) {
+            let results = self.arView.session.raycast(query)
+            
+            if results.count == 1 {
+                if let match = results.first {
+                    let t = match.worldTransform
+                    self.focusNode?.transform.translation = SIMD3(x: t.columns.3.x, y: t.columns.3.y, z: t.columns.3.z)
+                    self.appState = .TapToStart
+                    //focusNode.isHidden = false
+                }
+            } else {
+                self.appState = .TapToStart
+                //focusNode.isHidden = true
+            }
+        }
     }
 }
 

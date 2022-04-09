@@ -14,8 +14,8 @@
             filePath = "LumaCam/CaptureViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "tapGestureHandler(_:)"
             landmarkType = "7">
             <Locations>
